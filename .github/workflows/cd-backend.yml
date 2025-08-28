@@ -16,7 +16,7 @@ jobs:
          - name: Construir e enviar imagem Docker
            uses: docker/build-push-action@v6
            with:
-              context: .
+              context: sgcmapi/
               push: true
               tags: ghcr.io/mauriciowjr/sgcmapi:latest
    deploy:
